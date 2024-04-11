@@ -57,6 +57,7 @@ export default function HomePage() {
   return (
     <div>
       <div className="formcontainer">
+      <h1>React Basic API Project</h1>
       <input 
       value={search}
       onChange={event => setSearch(event.target.value)}
