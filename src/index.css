@@ -8,6 +8,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.formcontainer {
+  margin: 0 auto 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 32rem;
+}
+.formcontainer input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
 .news {
   display: flex;
   flex-wrap: wrap;
