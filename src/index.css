@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.newsimage {
+  width: 100%;
+  height: 15rem;
+}
+.newsimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.newstitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: navy;
+}
+.newscontainer {
+  border: 1px solid #ccc;
+  width: 25rem;
+  height: 23rem;
+}
+.banner {
+  height: 30rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
